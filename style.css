@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../Projeto_Chale_Hotel/imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -119,4 +119,45 @@ ul#navegacao a:hover {
     width: 226px;
     height: 164px;
     float: right;
+}
+
+/* AREA DE CONTEÚDOS */
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../Projeto_Chale_Hotel/imagens/bg-area-principal.png) top repeat-x;
+    padding: 15px 0px;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../Projeto_Chale_Hotel/imagens/bg-area-lateral.png) top repeat-x;
+    padding: 20px 0px;
+
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* RODAPE */
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url(../Projeto_Chale_Hotel/imagens/bg-rodape.png);
+}
+
+/* FORMATAÇÕES DE TEXTOS */
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
