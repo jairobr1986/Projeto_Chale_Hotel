@@ -1,0 +1,40 @@
+/*ESTRUTURA DO SITE*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background: #fff url(../Projeto_Chale_Hotel/imagens/bg.png);
+    margin: 15px;
+}
+
+#container {
+    background: #ede9cc;
+}
+
+#topo {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#area-logo {
+    position: absolute;
+    background: url(../Projeto_Chale_Hotel/imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+}
+
+#area-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../Projeto_Chale_Hotel/imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+}
